@@ -81,8 +81,25 @@ diabetes-hospital-ml/
 │   └── cleaned_data.csv               # cleaned dataset (output of the notebook's cleaning step)
 ├── docs/
 │   └── final_report.pdf               # written report with all steps and results
+├── extras/                            # ML algorithms implemented from scratch (NumPy)
+├── certificates/                      # DataCamp course certificates
 └── assets/                            # charts used in this README
 ```
+
+### Extras: ML from scratch
+
+To understand what scikit-learn does under the hood, I implemented the core algorithms myself with NumPy:
+
+| Notebook | What it covers |
+|---|---|
+| [`linear_regression_from_scratch.ipynb`](extras/linear_regression_from_scratch.ipynb) | Cost function, gradient descent, L2 regularisation, tuning; compared with scikit-learn |
+| [`logistic_regression_from_scratch.ipynb`](extras/logistic_regression_from_scratch.ipynb) | Sigmoid, cross-entropy cost, gradient descent, regularisation, evaluation |
+| [`gradient_descent_function_minimisation.ipynb`](extras/gradient_descent_function_minimisation.ipynb) | Minimising a polynomial; effect of learning rate and starting point |
+| [`gradient_descent_house_prices.ipynb`](extras/gradient_descent_house_prices.ipynb) | House-price prediction with gradient descent vs. scikit-learn |
+
+### Certificates
+
+Courses I completed alongside this project (DataCamp): [Supervised Learning with scikit-learn](certificates/Supervised%20Learning%20with%20scikit-learn.pdf) · [Machine Learning with Tree-Based Models](certificates/Machine%20Learning%20with%20Tree-Based%20Models%20in%20Python.pdf) · [Hyperparameter Tuning in Python](certificates/Hyperparameter%20Tuning%20in%20Python.pdf) · [Exploratory Data Analysis in Python](certificates/Exploratory%20Data%20Analysis%20in%20Python.pdf) · [Intermediate SQL](certificates/Intermediate%20SQL.pdf) · [Introduction to Statistics in Python](certificates/Introduction%20to%20Statistics%20in%20Python.pdf) · [Writing Efficient Python Code](certificates/Writing%20Efficient%20Python%20Code.pdf) · [Writing Functions in Python](certificates/Writing%20Functions%20in%20Python.pdf) · [Introduction to Functions in Python](certificates/Introduction%20to%20Functions%20in%20Python.pdf) · [Data Types in Python](certificates/Data%20Types%20in%20Python.pdf) · [Introduction to Python](certificates/Introduction%20to%20Python.pdf)
 
 ## How to run
 
