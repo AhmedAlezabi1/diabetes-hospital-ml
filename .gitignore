@@ -1,0 +1,6 @@
+.ipynb_checkpoints/
+__pycache__/
+.venv/
+data/diabetic_data.csv
+desktop.ini
+.DS_Store
